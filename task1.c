@@ -14,6 +14,6 @@ else
 {
 printf("NO");
 }
-
+return 0;
 
 }
