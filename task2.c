@@ -13,14 +13,8 @@ int n,k,i;
 scanf("%d %d",&n,&k);
 char a[n];
 char b[k];
-for(i=0;i<n;i++)
-{
-scanf("%c",&a[i]);
-}
-for(i=0;i<k;i++)
-{
-scanf("%c",&b[i]);
-}
+scanf("%s",a);
+scanf("%s",b);
 int ans=0;
 for(i=0; i<n; i++) {
       int j = i;
@@ -30,8 +24,17 @@ for(i=0; i<n; i++) {
         }
     }
 printf("%d",ans);
-    return 0;
+return 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 
